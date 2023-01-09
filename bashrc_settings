@@ -1,9 +1,7 @@
 # move up one directory
 alias ..='cd ..'
 # log in to vault with ldap
-alias vaultldap='vault login -method=ldap username=rrobinson'
-# cd into cardfree code repos
-alias cardfree='cd Desktop/cardfree/code'
+alias vaultldap='vault login -method=ldap username={username}'
 # open known hosts
 alias known-hosts='vim .ssh/known_hosts
 
