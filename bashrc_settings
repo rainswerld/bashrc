@@ -1,0 +1,11 @@
+# move up one directory
+alias ..='cd ..'
+# log in to vault with ldap
+alias vaultldap='vault login -method=ldap username=rrobinson'
+# cd into cardfree code repos
+alias cardfree='cd Desktop/cardfree/code'
+# open known hosts
+alias known-hosts='vim .ssh/known_hosts
+
+export EDITOR='code -w'
+export VISUAL='code -w''
